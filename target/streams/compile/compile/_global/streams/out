@@ -1,0 +1,18 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/knoldus/UserDetails/src/main/scala/com/knoldus/user_management_system/Main.scala:14:22 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m14 |[0m    App.server.provide(AccountServer.live,[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m    ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    [7m[1m[33m  ZLayer Wiring Graph  [0m[0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    [34m◉ [0m[34m[1mHttpConfig.live[0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    [34m◉ [0m[34m[1mAccountServer.live[0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    [34m[2m╰─[0m[0m[36m[2m◑[0m [0m[36m[1mAccountService.live[0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    [34m◉ [0m[34m[1mHttpServerSettings.default[0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m15 |[0m      AccountService.live,[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m16 |[0m      HttpServerSettings.default,[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m17 |[0m      HttpConfig.live,[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m18 |[0m      ZLayer.Debug.tree)[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
