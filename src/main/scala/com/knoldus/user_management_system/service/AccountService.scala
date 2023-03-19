@@ -27,8 +27,8 @@ object AccountService {
 class AcountServiceImpl extends  AccountService {
 
   private var account_Details = ListBuffer(UserDetails(1,"Rahul","Khowal","rahul9239","rahul.khowal@knoldus.com","India",9999591),
-    UserDetails(2,"Raviyanshu","Singh","ravi111","raviyanshu.singh@knoldus.com","India",85485485),
-    UserDetails(3,"Ayush","tiwari","ayush001","ayush.tiwari@knoldus.com","India",658455544))
+    UserDetails(2,"Harshita","Mehta","harshita111","harshita.mehta@gmail.com","India",85485485),
+    UserDetails(3,"Annu","Gautam","annuga987","annu.gautam@gmail.com","India",658455544))
 
   override def getAllAccountDetails: ZIO[Any, Nothing, UserAccountDetails] = {
     ZIO.logInfo("Get all Account Details") *>
